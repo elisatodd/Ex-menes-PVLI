@@ -29,20 +29,6 @@ export default class GameScene extends Phaser.Scene {
         // this.createAligned(this, 3, 'mountains1', 2);
         // this.createAligned(this, 3, 'mountains2', 3);
 
-        // this.borders = this.physics.add.staticGroup();
-        // new Border(this, 0, 0, 1600, 100, this.player, this.borders);
-        // new Border(this, 0, this.cameras.main.height - 5, 1600, 100, this.player, this.borders);
-        // new Border(this, this.cameras.main.width - 5, 0, 100, 1600, this.player, this.borders);
-        // new Border(this, 0, 0, 100, 1600, this.player, this.borders);
-
-        // this.enemies = this.add.group();
-        // new Enemy(this, 200, 200, this.enemySize, this.enemies, this.player);
-
-        // //this.physics.add.collider(this.enemies, this.player); // esto no sirve ahora pero puede venir bien para colisiones entre jugador y grupo
-        // this.physics.add.overlap(this.player, this.enemies, (p, g) => { this.collide(g) });
-        // this.physics.add.collider(this.player, this.borders);
-        // this.physics.add.collider(this.enemies, this.borders);
-
         this.obstacles = 0;
 
         this.spawnEnemyTime();
