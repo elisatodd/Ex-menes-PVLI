@@ -1,0 +1,30 @@
+
+a {
+	text-align: right;
+	color:white;
+}
+p{
+	font-family: 'Arial Black', sans-serif;
+	color:whitesmoke;
+	font-size: 32px;
+	display: inline-block;
+	padding-inline: 45px;
+ 
+} 
+body {
+	background-image: url("../assets/images/morado.jpg");
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  background-position: 100% 10%;
+	  background-attachment: scroll;
+}
+* {
+	  margin:0px;
+	  padding:0px;
+}
+h1{
+	text-align: center;
+	padding-top: 5%;
+	color: whitesmoke;
+	
+}

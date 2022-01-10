@@ -1,0 +1,7 @@
+dandole a terminal:
+
+npx live-server
+http-server (basado en node)
+
+
+si no darle al ultimo icono de la izq y buscar live server
